@@ -1,0 +1,46 @@
+.dashboard_body h1 {
+    padding: 20px 10px;
+}
+.avatar_change {
+    display: grid;
+    height: 50%;
+    align-items: center;
+}
+
+.avatar_change form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex: 0.53;
+        align-items: center;
+        justify-content: center;
+}
+.avatar_change form input {
+    padding: 10px;
+    width: 20%;
+    border: none;
+    background: #93c0be;
+    margin: 10px;
+    cursor: pointer;
+}
+#filetype{
+    border: 1px solid #ccc;
+        display: inline-block;
+        padding: 8px 12px;
+        cursor: pointer;
+        width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+}
+
+
+input[type=file]::-ms-browse:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+}
+
+
+input[type=file]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+}

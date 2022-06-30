@@ -1,0 +1,7 @@
+.container > p {
+    position: absolute;
+    top: 74%;
+    left: 57.5%;
+    font-size: 12px;
+    font-style: italic;
+}

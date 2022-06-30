@@ -1,0 +1,74 @@
+.dashboard_body {
+    background-image: url("../images/dashboardSidebar.jpg");
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size:78%;
+        overflow: scroll;
+        
+        /* border-bottom-right-radius: 10px; */
+}
+ 
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    display: none;
+}
+.forTodo h1 {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 5%;
+}
+.todo_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 17%;
+    background: #fff;
+}
+.todo_container input {
+    padding: 10px;
+    width: 30%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid salmon;
+}
+.todo_container  .MuiSvgIcon-root {
+    color: #93c0be;
+}
+.todo_container .MuiSvgIcon-root:hover {
+    color: rgb(110, 181, 5);
+    transform: rotate(120deg);
+}
+.todo_list {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+   
+
+}
+.todo_list ol {
+    list-style: none;
+    position: fixed;
+    max-height: 380px;
+    overflow: scroll;
+
+}
+.todo_list ol li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 300;
+}
+.todo_list ol li .MuiSvgIcon-root{
+    padding-right: 20px;
+    font-size: 30px;
+}
+.todo_list ol li .MuiSvgIcon-root:hover{
+    color: rgb(248, 28, 28);
+}

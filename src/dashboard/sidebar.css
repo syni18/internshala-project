@@ -1,0 +1,124 @@
+.dashboard {
+    background-color: #F4EBE5 !important;
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.dashboard_container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #fff;
+    width: 1240px;
+    height: 80vh;
+    box-shadow: 0 8px 6px rgb(143, 118, 140, 0.2),
+        0 5px 30px rgb(143, 118, 140, 0.4);
+}
+
+.dashboard_left {
+    border-right: 1px solid #F2F2F2;
+    flex: 0.20;
+    margin: 10px;
+}
+
+.dashboard_left .signout {
+    position: absolute;
+    bottom: 12%;
+    flex: 0.27;
+}
+
+.dashboard_leftHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 15px;
+}
+.dashboard_leftHeader h1 {
+        text-transform: uppercase;
+        font-size: 14px;
+        padding-right: 20px;
+}
+
+.dashboard_leftSection {
+    flex: 0.27;
+    justify-content: left;
+    color: gray;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+.dashboard_leftSection .MuiSvgIcon-root {
+    font-size: 28px;
+}
+
+.dashboard_leftSection ul li {
+    display: flex;
+    align-items: center;
+    padding: 20px 5px;
+    list-style: none;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.dashboard_leftSection ul li:hover {
+    background: #F5F7F7;
+    border-right: none;
+}
+
+.dashboard_leftSection ul li span {
+    padding-left: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.dashboard_body {
+    flex: 0.80;
+}
+
+.dashboard_right {
+    flex: 0.27;
+    background-image: url("../images/dashboardSidebar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 10px;
+}
+
+.dashboard_right h1 {
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.dashboard_todotask {
+    position: absolute;
+    top: 35%;
+    margin: 10px;
+}
+
+
+.dashboard_todotask ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.dashboard_todotask ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+}
+
+.dashboard_todotask ul li h3 {
+    font-weight: 400;
+}
