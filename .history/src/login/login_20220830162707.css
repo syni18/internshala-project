@@ -43,7 +43,7 @@
     /* border-top-right-radius: 30px; */
     /* border-bottom-right-radius: 10px; */
     box-shadow: 0 8px 6px rgb(143, 118, 140, 0.8),
-            0 5px 30px rgb(143, 118, 140, 0.2);
+            0 5px 30px rgb(143, 118, 140, 0.4);
     cursor: pointer;
 }
 .login_container form {
@@ -67,5 +67,4 @@
         padding: 8px 20px;
         width: max-content;
         font-weight: 600;
-        cursor: pointer;
 }

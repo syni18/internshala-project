@@ -15,15 +15,15 @@
 }
 
 .login_container {
-    /* border: 3px solid rgb(56, 55, 83); */
-    /* border-left: none; */
+    border: 3px solid rgb(56, 55, 83);
+    border-left: none;
     position: relative;
-    right: 250px;
+    right: 240px;
     padding:90px;
     text-align: center;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 8px 6px rgb(143, 118, 140,0.6),
+    box-shadow: 0 8px 6px rgb(143, 118, 140,0.2),
         0 5px 30px rgb(143, 118, 140,0.4);
 }
 .login_container h1 {
@@ -36,14 +36,12 @@
 }
 .login_container .btn{
     position: absolute;
-    bottom: 4.5%;
+    bottom: 4.8%;
     left: 0;
     width: 80%;
     padding: 10px 0;
-    /* border-top-right-radius: 30px; */
-    /* border-bottom-right-radius: 10px; */
-    box-shadow: 0 8px 6px rgb(143, 118, 140, 0.8),
-            0 5px 30px rgb(143, 118, 140, 0.2);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     cursor: pointer;
 }
 .login_container form {
@@ -67,5 +65,4 @@
         padding: 8px 20px;
         width: max-content;
         font-weight: 600;
-        cursor: pointer;
 }

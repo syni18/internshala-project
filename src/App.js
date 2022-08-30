@@ -21,13 +21,13 @@ function App() {
           <Auth />
         ) : (
           <Routes>
-            <Route path='/auth' element={<Auth/>} />
-            <Route path="/signup" element={<SignUp/>} />
+            <Route path="/auth" element={<Auth />} />
+            <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/forget" element={<ForgotPaswd/>} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/forget" element={<ForgotPaswd />} />
+            <Route path="/" element={<Home />} />
             <Route path="profile" element={<Profile />} />
-            <Route path="todo" element={<Todo/>} />
+            <Route path="todo" element={<Todo />} />
             <Route path="setting" element={<Setting />} />
           </Routes>
         )}

@@ -1,0 +1,36 @@
+.profile_header {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile_section {
+    display: grid;
+    padding: 20px 100px;
+}
+.profile_section p {
+    padding: 20px;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex; 
+    justify-content:space-between;
+    width: 100%;
+}
+i {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.profile_footer {
+    margin: 20px 10px;
+}
+.profile_footer h2 {
+    margin-bottom: 10px;
+}
+.profile_account {
+}
+.profile_account .MuiSvgIcon-root {
+    padding: 15px;
+    font-size: 30px;
+}

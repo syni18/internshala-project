@@ -36,7 +36,7 @@ function Login() {
         <img src={bgwall} alt="" />
       </div>
       <div className="login_container">
-        <h1>SIGN IN</h1>
+        <h1>DASHBOARD</h1>
         <form onSubmit={onSubmit}>
           <h3>Email</h3>
           <input

@@ -28,7 +28,7 @@ function ForgotPaswd() {
         <img src={bgwall} alt="" />
       </div>
       <div className="login_container">
-        <h1>FORGOT</h1>
+        <h1>FORGOT PASSWORD</h1>
         <form onSubmit={onSubmit}>
 
           <h3>Email</h3>

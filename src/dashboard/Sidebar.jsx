@@ -25,7 +25,7 @@ function Sidebar() {
       </div>
       <div className="dashboard_leftSection">
         <ul>
-          <Link to="/home">
+          <Link to="/">
             <li>
               <HomeOutlinedIcon />
               <span>Home</span>
